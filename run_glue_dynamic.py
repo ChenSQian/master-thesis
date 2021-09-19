@@ -671,7 +671,6 @@ def main():
     parser.add_argument("--eval_difficult", action='store_true', help="Use difficult test set (only available for mantis)")
     
 
-
     # the belowing are new added arguments, supporting four new functions
     # 1. for combining two pacing functions: the first half training with pacing function A and the other half with B
     parser.add_argument("--pacing_functions", nargs='*', default="", 
@@ -696,7 +695,6 @@ def main():
     # 4. for random sampling part of big validating dataset for evaluation during training 
     parser.add_argument("--eval_subsize", type=int, default=-1, help="Size of valid dataset for evaluation, used when the original valid dataset is too big.\n"
     "When used, a randomly sampled sub valid dataset will be used per evaluating time")
-
 
 
     args = parser.parse_args()
