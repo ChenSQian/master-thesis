@@ -1,0 +1,462 @@
+!python drive/MyDrive/transformers_cl/run_glue_test.py \
+		--model_type bert \
+		--config_name bert-base-uncased \
+		--tokenizer_name bert-base-uncased\
+		--model_name_or_path drive/MyDrive/transformers_cl/ms_v2_root2_l_995_r_05_seed_1/checkpoint-best_run_cl_drive/MyDrive/MSDialog/preds_dif_run_seed_42root_2_seed_1\
+		--task_name  ms_v2 \
+		--do_eval \
+		--do_lower_case \
+		--data_dir drive/MyDrive/MSDialog \
+		--max_seq_length 128 \
+		--per_gpu_eval_batch_size=64   \
+		--per_gpu_train_batch_size=64   \
+		--output_dir drive/MyDrive/transformers_cl/ms_v2_root2_l_995_r_05_seed_1_test \
+
+!python drive/MyDrive/transformers_cl/run_glue_test.py \
+		--model_type bert \
+		--config_name bert-base-uncased \
+		--tokenizer_name bert-base-uncased\
+		--model_name_or_path drive/MyDrive/transformers_cl/ms_v2_root2_l_995_r_05_seed_2/checkpoint-best_run_cl_drive/MyDrive/MSDialog/preds_dif_run_seed_42root_2_seed_2\
+		--task_name  ms_v2 \
+		--do_eval \
+		--do_lower_case \
+		--data_dir drive/MyDrive/MSDialog \
+		--max_seq_length 128 \
+		--per_gpu_eval_batch_size=64   \
+		--per_gpu_train_batch_size=64   \
+		--output_dir drive/MyDrive/transformers_cl/ms_v2_root2_l_995_r_05_seed_2_test \
+
+!python drive/MyDrive/transformers_cl/run_glue_test.py \
+		--model_type bert \
+		--config_name bert-base-uncased \
+		--tokenizer_name bert-base-uncased\
+		--model_name_or_path drive/MyDrive/transformers_cl/ms_v2_root2_l_995_r_05_seed_3/checkpoint-best_run_cl_drive/MyDrive/MSDialog/preds_dif_run_seed_42root_2_seed_3\
+		--task_name  ms_v2 \
+		--do_eval \
+		--do_lower_case \
+		--data_dir drive/MyDrive/MSDialog \
+		--max_seq_length 128 \
+		--per_gpu_eval_batch_size=64   \
+		--per_gpu_train_batch_size=64   \
+		--output_dir drive/MyDrive/transformers_cl/ms_v2_root2_l_995_r_05_seed_3_test \
+
+!python drive/MyDrive/transformers_cl/run_glue_test.py \
+		--model_type bert \
+		--config_name bert-base-uncased \
+		--tokenizer_name bert-base-uncased\
+		--model_name_or_path drive/MyDrive/transformers_cl/ms_v2_root2_l_995_r_1_seed_1/checkpoint-best_run_cl_drive/MyDrive/MSDialog/preds_dif_run_seed_42root_2_seed_1\
+		--task_name  ms_v2 \
+		--do_eval \
+		--do_lower_case \
+		--data_dir drive/MyDrive/MSDialog \
+		--max_seq_length 128 \
+		--per_gpu_eval_batch_size=64   \
+		--per_gpu_train_batch_size=64   \
+		--output_dir drive/MyDrive/transformers_cl/ms_v2_root2_l_995_r_1_seed_1_test \
+
+!python drive/MyDrive/transformers_cl/run_glue_test.py \
+		--model_type bert \
+		--config_name bert-base-uncased \
+		--tokenizer_name bert-base-uncased\
+		--model_name_or_path drive/MyDrive/transformers_cl/ms_v2_root2_l_995_r_1_seed_2/checkpoint-best_run_cl_drive/MyDrive/MSDialog/preds_dif_run_seed_42root_2_seed_2\
+		--task_name  ms_v2 \
+		--do_eval \
+		--do_lower_case \
+		--data_dir drive/MyDrive/MSDialog \
+		--max_seq_length 128 \
+		--per_gpu_eval_batch_size=64   \
+		--per_gpu_train_batch_size=64   \
+		--output_dir drive/MyDrive/transformers_cl/ms_v2_root2_l_995_r_1_seed_2_test \
+
+!python drive/MyDrive/transformers_cl/run_glue_test.py \
+		--model_type bert \
+		--config_name bert-base-uncased \
+		--tokenizer_name bert-base-uncased\
+		--model_name_or_path drive/MyDrive/transformers_cl/ms_v2_root2_l_995_r_1_seed_3/checkpoint-best_run_cl_drive/MyDrive/MSDialog/preds_dif_run_seed_42root_2_seed_3\
+		--task_name  ms_v2 \
+		--do_eval \
+		--do_lower_case \
+		--data_dir drive/MyDrive/MSDialog \
+		--max_seq_length 128 \
+		--per_gpu_eval_batch_size=64   \
+		--per_gpu_train_batch_size=64   \
+		--output_dir drive/MyDrive/transformers_cl/ms_v2_root2_l_995_r_1_seed_3_test \
+
+!python drive/MyDrive/transformers_cl/run_glue_test.py \
+		--model_type bert \
+		--config_name bert-base-uncased \
+		--tokenizer_name bert-base-uncased\
+		--model_name_or_path drive/MyDrive/transformers_cl/ms_v2_root2_l_995_r_66_seed_1/checkpoint-best_run_cl_drive/MyDrive/MSDialog/preds_dif_run_seed_42root_2_seed_1\
+		--task_name  ms_v2 \
+		--do_eval \
+		--do_lower_case \
+		--data_dir drive/MyDrive/MSDialog \
+		--max_seq_length 128 \
+		--per_gpu_eval_batch_size=64   \
+		--per_gpu_train_batch_size=64   \
+		--output_dir drive/MyDrive/transformers_cl/ms_v2_root2_l_995_r_66_seed_1_test \
+
+!python drive/MyDrive/transformers_cl/run_glue_test.py \
+		--model_type bert \
+		--config_name bert-base-uncased \
+		--tokenizer_name bert-base-uncased\
+		--model_name_or_path drive/MyDrive/transformers_cl/ms_v2_root2_l_995_r_66_seed_2/checkpoint-best_run_cl_drive/MyDrive/MSDialog/preds_dif_run_seed_42root_2_seed_2\
+		--task_name  ms_v2 \
+		--do_eval \
+		--do_lower_case \
+		--data_dir drive/MyDrive/MSDialog \
+		--max_seq_length 128 \
+		--per_gpu_eval_batch_size=64   \
+		--per_gpu_train_batch_size=64   \
+		--output_dir drive/MyDrive/transformers_cl/ms_v2_root2_l_995_r_66_seed_2_test \
+
+!python drive/MyDrive/transformers_cl/run_glue_test.py \
+		--model_type bert \
+		--config_name bert-base-uncased \
+		--tokenizer_name bert-base-uncased\
+		--model_name_or_path drive/MyDrive/transformers_cl/ms_v2_root2_l_995_r_66_seed_3/checkpoint-best_run_cl_drive/MyDrive/MSDialog/preds_dif_run_seed_42root_2_seed_3\
+		--task_name  ms_v2 \
+		--do_eval \
+		--do_lower_case \
+		--data_dir drive/MyDrive/MSDialog \
+		--max_seq_length 128 \
+		--per_gpu_eval_batch_size=64   \
+		--per_gpu_train_batch_size=64   \
+		--output_dir drive/MyDrive/transformers_cl/ms_v2_root2_l_995_r_66_seed_3_test \
+
+!python drive/MyDrive/transformers_cl/run_glue_test.py \
+		--model_type bert \
+		--config_name bert-base-uncased \
+		--tokenizer_name bert-base-uncased\
+		--model_name_or_path drive/MyDrive/transformers_cl/ms_v2_root2_l_999_r_05_seed_1/checkpoint-best_run_cl_drive/MyDrive/MSDialog/preds_dif_run_seed_42root_2_seed_1\
+		--task_name  ms_v2 \
+		--do_eval \
+		--do_lower_case \
+		--data_dir drive/MyDrive/MSDialog \
+		--max_seq_length 128 \
+		--per_gpu_eval_batch_size=64   \
+		--per_gpu_train_batch_size=64   \
+		--output_dir drive/MyDrive/transformers_cl/ms_v2_root2_l_999_r_05_seed_1_test \
+
+!python drive/MyDrive/transformers_cl/run_glue_test.py \
+		--model_type bert \
+		--config_name bert-base-uncased \
+		--tokenizer_name bert-base-uncased\
+		--model_name_or_path drive/MyDrive/transformers_cl/ms_v2_root2_l_999_r_05_seed_2/checkpoint-best_run_cl_drive/MyDrive/MSDialog/preds_dif_run_seed_42root_2_seed_2\
+		--task_name  ms_v2 \
+		--do_eval \
+		--do_lower_case \
+		--data_dir drive/MyDrive/MSDialog \
+		--max_seq_length 128 \
+		--per_gpu_eval_batch_size=64   \
+		--per_gpu_train_batch_size=64   \
+		--output_dir drive/MyDrive/transformers_cl/ms_v2_root2_l_999_r_05_seed_2_test \
+
+!python drive/MyDrive/transformers_cl/run_glue_test.py \
+		--model_type bert \
+		--config_name bert-base-uncased \
+		--tokenizer_name bert-base-uncased\
+		--model_name_or_path drive/MyDrive/transformers_cl/ms_v2_root2_l_999_r_05_seed_3/checkpoint-best_run_cl_drive/MyDrive/MSDialog/preds_dif_run_seed_42root_2_seed_3\
+		--task_name  ms_v2 \
+		--do_eval \
+		--do_lower_case \
+		--data_dir drive/MyDrive/MSDialog \
+		--max_seq_length 128 \
+		--per_gpu_eval_batch_size=64   \
+		--per_gpu_train_batch_size=64   \
+		--output_dir drive/MyDrive/transformers_cl/ms_v2_root2_l_999_r_05_seed_3_test \
+
+!python drive/MyDrive/transformers_cl/run_glue_test.py \
+		--model_type bert \
+		--config_name bert-base-uncased \
+		--tokenizer_name bert-base-uncased\
+		--model_name_or_path drive/MyDrive/transformers_cl/ms_v2_root2_l_999_r_1_seed_1/checkpoint-best_run_cl_drive/MyDrive/MSDialog/preds_dif_run_seed_42root_2_seed_1\
+		--task_name  ms_v2 \
+		--do_eval \
+		--do_lower_case \
+		--data_dir drive/MyDrive/MSDialog \
+		--max_seq_length 128 \
+		--per_gpu_eval_batch_size=64   \
+		--per_gpu_train_batch_size=64   \
+		--output_dir drive/MyDrive/transformers_cl/ms_v2_root2_l_999_r_1_seed_1_test \
+
+!python drive/MyDrive/transformers_cl/run_glue_test.py \
+		--model_type bert \
+		--config_name bert-base-uncased \
+		--tokenizer_name bert-base-uncased\
+		--model_name_or_path drive/MyDrive/transformers_cl/ms_v2_root2_l_999_r_1_seed_2/checkpoint-best_run_cl_drive/MyDrive/MSDialog/preds_dif_run_seed_42root_2_seed_2\
+		--task_name  ms_v2 \
+		--do_eval \
+		--do_lower_case \
+		--data_dir drive/MyDrive/MSDialog \
+		--max_seq_length 128 \
+		--per_gpu_eval_batch_size=64   \
+		--per_gpu_train_batch_size=64   \
+		--output_dir drive/MyDrive/transformers_cl/ms_v2_root2_l_999_r_1_seed_2_test \
+
+!python drive/MyDrive/transformers_cl/run_glue_test.py \
+		--model_type bert \
+		--config_name bert-base-uncased \
+		--tokenizer_name bert-base-uncased\
+		--model_name_or_path drive/MyDrive/transformers_cl/ms_v2_root2_l_999_r_1_seed_3/checkpoint-best_run_cl_drive/MyDrive/MSDialog/preds_dif_run_seed_42root_2_seed_3\
+		--task_name  ms_v2 \
+		--do_eval \
+		--do_lower_case \
+		--data_dir drive/MyDrive/MSDialog \
+		--max_seq_length 128 \
+		--per_gpu_eval_batch_size=64   \
+		--per_gpu_train_batch_size=64   \
+		--output_dir drive/MyDrive/transformers_cl/ms_v2_root2_l_999_r_1_seed_3_test \
+
+!python drive/MyDrive/transformers_cl/run_glue_test.py \
+		--model_type bert \
+		--config_name bert-base-uncased \
+		--tokenizer_name bert-base-uncased\
+		--model_name_or_path drive/MyDrive/transformers_cl/ms_v2_root2_l_999_r_66_seed_1/checkpoint-best_run_cl_drive/MyDrive/MSDialog/preds_dif_run_seed_42root_2_seed_1\
+		--task_name  ms_v2 \
+		--do_eval \
+		--do_lower_case \
+		--data_dir drive/MyDrive/MSDialog \
+		--max_seq_length 128 \
+		--per_gpu_eval_batch_size=64   \
+		--per_gpu_train_batch_size=64   \
+		--output_dir drive/MyDrive/transformers_cl/ms_v2_root2_l_999_r_66_seed_1_test \
+
+!python drive/MyDrive/transformers_cl/run_glue_test.py \
+		--model_type bert \
+		--config_name bert-base-uncased \
+		--tokenizer_name bert-base-uncased\
+		--model_name_or_path drive/MyDrive/transformers_cl/ms_v2_root2_l_999_r_66_seed_2/checkpoint-best_run_cl_drive/MyDrive/MSDialog/preds_dif_run_seed_42root_2_seed_2\
+		--task_name  ms_v2 \
+		--do_eval \
+		--do_lower_case \
+		--data_dir drive/MyDrive/MSDialog \
+		--max_seq_length 128 \
+		--per_gpu_eval_batch_size=64   \
+		--per_gpu_train_batch_size=64   \
+		--output_dir drive/MyDrive/transformers_cl/ms_v2_root2_l_999_r_66_seed_2_test \
+
+!python drive/MyDrive/transformers_cl/run_glue_test.py \
+		--model_type bert \
+		--config_name bert-base-uncased \
+		--tokenizer_name bert-base-uncased\
+		--model_name_or_path drive/MyDrive/transformers_cl/ms_v2_root2_l_999_r_66_seed_3/checkpoint-best_run_cl_drive/MyDrive/MSDialog/preds_dif_run_seed_42root_2_seed_3\
+		--task_name  ms_v2 \
+		--do_eval \
+		--do_lower_case \
+		--data_dir drive/MyDrive/MSDialog \
+		--max_seq_length 128 \
+		--per_gpu_eval_batch_size=64   \
+		--per_gpu_train_batch_size=64   \
+		--output_dir drive/MyDrive/transformers_cl/ms_v2_root2_l_999_r_66_seed_3_test \
+
+!python drive/MyDrive/transformers_cl/run_glue_test.py \
+		--model_type bert \
+		--config_name bert-base-uncased \
+		--tokenizer_name bert-base-uncased\
+		--model_name_or_path drive/MyDrive/transformers_cl/ms_v2_root2_l_99_r_05_seed_1/checkpoint-best_run_cl_drive/MyDrive/MSDialog/preds_dif_run_seed_42root_2_seed_1\
+		--task_name  ms_v2 \
+		--do_eval \
+		--do_lower_case \
+		--data_dir drive/MyDrive/MSDialog \
+		--max_seq_length 128 \
+		--per_gpu_eval_batch_size=64   \
+		--per_gpu_train_batch_size=64   \
+		--output_dir drive/MyDrive/transformers_cl/ms_v2_root2_l_99_r_05_seed_1_test \
+
+!python drive/MyDrive/transformers_cl/run_glue_test.py \
+		--model_type bert \
+		--config_name bert-base-uncased \
+		--tokenizer_name bert-base-uncased\
+		--model_name_or_path drive/MyDrive/transformers_cl/ms_v2_root2_l_99_r_05_seed_2/checkpoint-best_run_cl_drive/MyDrive/MSDialog/preds_dif_run_seed_42root_2_seed_2\
+		--task_name  ms_v2 \
+		--do_eval \
+		--do_lower_case \
+		--data_dir drive/MyDrive/MSDialog \
+		--max_seq_length 128 \
+		--per_gpu_eval_batch_size=64   \
+		--per_gpu_train_batch_size=64   \
+		--output_dir drive/MyDrive/transformers_cl/ms_v2_root2_l_99_r_05_seed_2_test \
+
+!python drive/MyDrive/transformers_cl/run_glue_test.py \
+		--model_type bert \
+		--config_name bert-base-uncased \
+		--tokenizer_name bert-base-uncased\
+		--model_name_or_path drive/MyDrive/transformers_cl/ms_v2_root2_l_99_r_05_seed_3/checkpoint-best_run_cl_drive/MyDrive/MSDialog/preds_dif_run_seed_42root_2_seed_3\
+		--task_name  ms_v2 \
+		--do_eval \
+		--do_lower_case \
+		--data_dir drive/MyDrive/MSDialog \
+		--max_seq_length 128 \
+		--per_gpu_eval_batch_size=64   \
+		--per_gpu_train_batch_size=64   \
+		--output_dir drive/MyDrive/transformers_cl/ms_v2_root2_l_99_r_05_seed_3_test \
+
+!python drive/MyDrive/transformers_cl/run_glue_test.py \
+		--model_type bert \
+		--config_name bert-base-uncased \
+		--tokenizer_name bert-base-uncased\
+		--model_name_or_path drive/MyDrive/transformers_cl/ms_v2_root2_l_99_r_1_seed_1/checkpoint-best_run_cl_drive/MyDrive/MSDialog/preds_dif_run_seed_42root_2_seed_1\
+		--task_name  ms_v2 \
+		--do_eval \
+		--do_lower_case \
+		--data_dir drive/MyDrive/MSDialog \
+		--max_seq_length 128 \
+		--per_gpu_eval_batch_size=64   \
+		--per_gpu_train_batch_size=64   \
+		--output_dir drive/MyDrive/transformers_cl/ms_v2_root2_l_99_r_1_seed_1_test \
+
+!python drive/MyDrive/transformers_cl/run_glue_test.py \
+		--model_type bert \
+		--config_name bert-base-uncased \
+		--tokenizer_name bert-base-uncased\
+		--model_name_or_path drive/MyDrive/transformers_cl/ms_v2_root2_l_99_r_1_seed_2/checkpoint-best_run_cl_drive/MyDrive/MSDialog/preds_dif_run_seed_42root_2_seed_2\
+		--task_name  ms_v2 \
+		--do_eval \
+		--do_lower_case \
+		--data_dir drive/MyDrive/MSDialog \
+		--max_seq_length 128 \
+		--per_gpu_eval_batch_size=64   \
+		--per_gpu_train_batch_size=64   \
+		--output_dir drive/MyDrive/transformers_cl/ms_v2_root2_l_99_r_1_seed_2_test \
+
+!python drive/MyDrive/transformers_cl/run_glue_test.py \
+		--model_type bert \
+		--config_name bert-base-uncased \
+		--tokenizer_name bert-base-uncased\
+		--model_name_or_path drive/MyDrive/transformers_cl/ms_v2_root2_l_99_r_1_seed_3/checkpoint-best_run_cl_drive/MyDrive/MSDialog/preds_dif_run_seed_42root_2_seed_3\
+		--task_name  ms_v2 \
+		--do_eval \
+		--do_lower_case \
+		--data_dir drive/MyDrive/MSDialog \
+		--max_seq_length 128 \
+		--per_gpu_eval_batch_size=64   \
+		--per_gpu_train_batch_size=64   \
+		--output_dir drive/MyDrive/transformers_cl/ms_v2_root2_l_99_r_1_seed_3_test \
+
+!python drive/MyDrive/transformers_cl/run_glue_test.py \
+		--model_type bert \
+		--config_name bert-base-uncased \
+		--tokenizer_name bert-base-uncased\
+		--model_name_or_path drive/MyDrive/transformers_cl/ms_v2_root2_l_99_r_66_seed_1/checkpoint-best_run_cl_drive/MyDrive/MSDialog/preds_dif_run_seed_42root_2_seed_1\
+		--task_name  ms_v2 \
+		--do_eval \
+		--do_lower_case \
+		--data_dir drive/MyDrive/MSDialog \
+		--max_seq_length 128 \
+		--per_gpu_eval_batch_size=64   \
+		--per_gpu_train_batch_size=64   \
+		--output_dir drive/MyDrive/transformers_cl/ms_v2_root2_l_99_r_66_seed_1_test \
+
+!python drive/MyDrive/transformers_cl/run_glue_test.py \
+		--model_type bert \
+		--config_name bert-base-uncased \
+		--tokenizer_name bert-base-uncased\
+		--model_name_or_path drive/MyDrive/transformers_cl/ms_v2_root2_l_99_r_66_seed_2/checkpoint-best_run_cl_drive/MyDrive/MSDialog/preds_dif_run_seed_42root_2_seed_2\
+		--task_name  ms_v2 \
+		--do_eval \
+		--do_lower_case \
+		--data_dir drive/MyDrive/MSDialog \
+		--max_seq_length 128 \
+		--per_gpu_eval_batch_size=64   \
+		--per_gpu_train_batch_size=64   \
+		--output_dir drive/MyDrive/transformers_cl/ms_v2_root2_l_99_r_66_seed_2_test \
+
+!python drive/MyDrive/transformers_cl/run_glue_test.py \
+		--model_type bert \
+		--config_name bert-base-uncased \
+		--tokenizer_name bert-base-uncased\
+		--model_name_or_path drive/MyDrive/transformers_cl/ms_v2_root2_l_99_r_66_seed_3/checkpoint-best_run_cl_drive/MyDrive/MSDialog/preds_dif_run_seed_42root_2_seed_3\
+		--task_name  ms_v2 \
+		--do_eval \
+		--do_lower_case \
+		--data_dir drive/MyDrive/MSDialog \
+		--max_seq_length 128 \
+		--per_gpu_eval_batch_size=64   \
+		--per_gpu_train_batch_size=64   \
+		--output_dir drive/MyDrive/transformers_cl/ms_v2_root2_l_99_r_66_seed_3_test \
+
+!python drive/MyDrive/transformers_cl/run_glue_test.py \
+		--model_type bert \
+		--config_name bert-base-uncased \
+		--tokenizer_name bert-base-uncased\
+		--model_name_or_path drive/MyDrive/transformers_cl/ms_v2_root2_seed_1/checkpoint-best_run_cl_drive/MyDrive/MSDialog/preds_dif_run_seed_42root_2_seed_1\
+		--task_name  ms_v2 \
+		--do_eval \
+		--do_lower_case \
+		--data_dir drive/MyDrive/MSDialog \
+		--max_seq_length 128 \
+		--per_gpu_eval_batch_size=64   \
+		--per_gpu_train_batch_size=64   \
+		--output_dir drive/MyDrive/transformers_cl/ms_v2_root2_seed_1_test \
+
+!python drive/MyDrive/transformers_cl/run_glue_test.py \
+		--model_type bert \
+		--config_name bert-base-uncased \
+		--tokenizer_name bert-base-uncased\
+		--model_name_or_path drive/MyDrive/transformers_cl/ms_v2_root2_seed_2/checkpoint-best_run_cl_drive/MyDrive/MSDialog/preds_dif_run_seed_42root_2_seed_2\
+		--task_name  ms_v2 \
+		--do_eval \
+		--do_lower_case \
+		--data_dir drive/MyDrive/MSDialog \
+		--max_seq_length 128 \
+		--per_gpu_eval_batch_size=64   \
+		--per_gpu_train_batch_size=64   \
+		--output_dir drive/MyDrive/transformers_cl/ms_v2_root2_seed_2_test \
+
+!python drive/MyDrive/transformers_cl/run_glue_test.py \
+		--model_type bert \
+		--config_name bert-base-uncased \
+		--tokenizer_name bert-base-uncased\
+		--model_name_or_path drive/MyDrive/transformers_cl/ms_v2_root2_seed_3/checkpoint-best_run_cl_drive/MyDrive/MSDialog/preds_dif_run_seed_42root_2_seed_3\
+		--task_name  ms_v2 \
+		--do_eval \
+		--do_lower_case \
+		--data_dir drive/MyDrive/MSDialog \
+		--max_seq_length 128 \
+		--per_gpu_eval_batch_size=64   \
+		--per_gpu_train_batch_size=64   \
+		--output_dir drive/MyDrive/transformers_cl/ms_v2_root2_seed_3_test \
+
+!python drive/MyDrive/transformers_cl/run_glue_test.py \
+		--model_type bert \
+		--config_name bert-base-uncased \
+		--tokenizer_name bert-base-uncased\
+		--model_name_or_path drive/MyDrive/transformers_cl/ms_v2_standard_training_seed_1/checkpoint-best_run_cl_drive/MyDrive/MSDialog/preds_dif_run_seed_42standard_training_seed_1\
+		--task_name  ms_v2 \
+		--do_eval \
+		--do_lower_case \
+		--data_dir drive/MyDrive/MSDialog \
+		--max_seq_length 128 \
+		--per_gpu_eval_batch_size=64   \
+		--per_gpu_train_batch_size=64   \
+		--output_dir drive/MyDrive/transformers_cl/ms_v2_standard_training_seed_1_test \
+
+!python drive/MyDrive/transformers_cl/run_glue_test.py \
+		--model_type bert \
+		--config_name bert-base-uncased \
+		--tokenizer_name bert-base-uncased\
+		--model_name_or_path drive/MyDrive/transformers_cl/ms_v2_standard_training_seed_2/checkpoint-best_run_cl_drive/MyDrive/MSDialog/preds_dif_run_seed_42standard_training_seed_2\
+		--task_name  ms_v2 \
+		--do_eval \
+		--do_lower_case \
+		--data_dir drive/MyDrive/MSDialog \
+		--max_seq_length 128 \
+		--per_gpu_eval_batch_size=64   \
+		--per_gpu_train_batch_size=64   \
+		--output_dir drive/MyDrive/transformers_cl/ms_v2_standard_training_seed_2_test \
+
+!python drive/MyDrive/transformers_cl/run_glue_test.py \
+		--model_type bert \
+		--config_name bert-base-uncased \
+		--tokenizer_name bert-base-uncased\
+		--model_name_or_path drive/MyDrive/transformers_cl/ms_v2_standard_training_seed_3/checkpoint-best_run_cl_drive/MyDrive/MSDialog/preds_dif_run_seed_42standard_training_seed_3\
+		--task_name  ms_v2 \
+		--do_eval \
+		--do_lower_case \
+		--data_dir drive/MyDrive/MSDialog \
+		--max_seq_length 128 \
+		--per_gpu_eval_batch_size=64   \
+		--per_gpu_train_batch_size=64   \
+		--output_dir drive/MyDrive/transformers_cl/ms_v2_standard_training_seed_3_test \
+
