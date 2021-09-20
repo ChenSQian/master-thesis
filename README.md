@@ -62,6 +62,7 @@ install the packages in the requirements.txt
     --model_name_or_path bert-base-uncased \
     --task_name  ms_v2 \
     --do_train \
+    --do_eval \
     --evaluate_during_training \
     --do_lower_case \
     --data_dir drive/MyDrive/MSDialog \
