@@ -1,7 +1,5 @@
-We used the negative sampling library from https://github.com/Guzpenha/transformer_rankers
+# Steps for preprocessing MANtIS
 
-More instructions are written in the negative_sampling.py file.
+We first use the negative sampling library from https://github.com/Guzpenha/transformer_rankers. More instructions are written in the negative_sampling.py file. The scripts of running the negative_sampling.py file and running logs are in the jupyter notebook preprocess_mantis.ipynb.
 
-The running scripts and logs are in the jupyter notebook.
-
-Th other preprocessings including adding labels, cleaning and sorting are also in the jupyter notebook.
+Then we do other preprocessings including adding labels, cleaning and sorting, which are also in the jupyter notebook preprocess_mantis.ipynb.
