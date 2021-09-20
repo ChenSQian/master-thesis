@@ -2,6 +2,7 @@
 import random
 import numpy as np
 
+
 def load_dataset(dataset_path):
     dataset = []
     query_neg_count = 0
