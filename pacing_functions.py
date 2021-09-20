@@ -3,6 +3,7 @@ the others credit to https://github.com/Guzpenha/transformers_cl"""
 import math
 import numpy as np
 
+
 # x = global_step, t = curriculum_iterations 0.90, c0 = 0.33
 def linear(x, t, c0):
 	return (x* ((1-c0)/t)) + c0
