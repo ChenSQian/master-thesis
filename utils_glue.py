@@ -16,6 +16,7 @@
 """ BERT classification fine-tuning: utilities to work with GLUE tasks """
 """ The original version of utils_glue.py adopted from https://github.com/Guzpenha/transformers_cl"""
 
+
 from __future__ import absolute_import, division, print_function
 
 import csv
