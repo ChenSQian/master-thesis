@@ -57,7 +57,7 @@ install the packages in the requirements.txt
 
 # An Example for Training and Testing
 
-`!python drive/MyDrive/transformers_cl/run_glue_noise.py \
+`!python drive/MyDrive/transformers_cl/run_glue_dynamic.py \
     --model_type bert \
     --model_name_or_path bert-base-uncased \
     --task_name  ms_v2 \
