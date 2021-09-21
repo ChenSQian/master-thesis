@@ -55,7 +55,7 @@ install the packages in the requirements.txt
     --logging_steps 1000 \
     `
 
-# An Example for Training and Testing
+## An Example for Training and Testing
 
 `!python drive/MyDrive/transformers_cl/run_glue_dynamic.py \
     --model_type bert \
